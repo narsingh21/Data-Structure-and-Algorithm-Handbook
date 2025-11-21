@@ -1,11 +1,10 @@
 # Data-Structure-and-Algorithm-Handbook
 
-Data-Structure:- data structure are collection of values these values have relationship between them. Here we create different data structure using class
+Data Structure:- data structure are collection of values these values have relationship between them. Here we create different data structure using class
 
+Class:- class is a blueprint for object.It helps us to create object with some properties and methods.
 
-class:- class is a blueprint for object.It helps us to create object with some properties and methods.
-
-class student{
+class Student{
 constructor(firstName, lastName){
 this.firstName= firstName
 this.lastName = LastName
@@ -21,13 +20,15 @@ this.lastName = LastName
 
 }
 
-object:  object is collection of data stored in key value pair
+object: object is collection of data stored in key value pair
 
 student ={
-                    fistName: 'Jhon',
-                    lastName: 'Smith'
+fistName: 'Jhon',
+lastName: 'Smith'
 }
 
-Instance Method: Instance methods are methods which are invoked by class instances (object).
+Instance Method: 
+Instance methods are methods which are invoked by class instances (object).
 
-Static Methods: Static methods which excutes by the class only. They are utility function for specific task only.
+Static Methods: 
+Static methods which excutes by the class only. They are utility function for specific task only.
