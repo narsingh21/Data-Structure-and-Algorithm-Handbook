@@ -3,7 +3,9 @@
 Its a data structure that contain tail, head and length.
 
 
- Linked list containt list of Nodes. A node contains value and pointer(which points to next node). 
+ Linked list containt list of Nodes. A node contains value and pointer(which points to next node or previous node). 
+
+ 
 
 
 
