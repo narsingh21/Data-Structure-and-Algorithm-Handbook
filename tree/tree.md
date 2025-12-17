@@ -35,5 +35,10 @@ Use Cases
 | Good for paths              | Good for shortest path |
 
 
+* DFS v/s BFS which is better: well the answer for this question is very, what type of tree we have if  it a balanced tree then queue have so much record on it for larger tree. So DFS would be better beacuse it won't treverse tree hall, it goes deeper on left side only.
 
+If there tree is one sided only then BFS would be a better approach where we don't go till the depth.
+
+- Inorder will give us a sorted traversed tree.
+- Preorder is can be we are reconstructing the tree using it traversal list.
  
