@@ -84,6 +84,9 @@ Contributions are welcome! Please read our [Contributing Guide](CONTRIBUTING.md)
 ## 📝 Project Structure
 
 ```
+├── LEARN.md              # Learning guide - how to use this handbook
+├── INTRODUCTION.md       # Introduction to Data Structures
+├── core-concepts.js      # Core concepts (Classes, Objects, Nodes)
 ├── heap/                  # Heap implementation
 ├── linked-list/          # Singly and doubly linked lists
 ├── priority-queue/       # Priority queue
@@ -94,6 +97,7 @@ Contributions are welcome! Please read our [Contributing Guide](CONTRIBUTING.md)
 ├── practise-question/    # Practice problems
 ├── CONTRIBUTING.md       # Contribution guidelines
 ├── LICENSE               # MIT License
+├── README.md             # Project description
 └── package.json          # Package configuration
 ```
 
