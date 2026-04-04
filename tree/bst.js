@@ -15,7 +15,7 @@ class BinarySearchTree {
     const newNode = new Node(val);
 
     if (!this.root) {
-      this.root = node;
+      this.root = newNode;
       return this;
     } else {
       let current = this.root;
@@ -46,7 +46,7 @@ class BinarySearchTree {
     while (current) {
       if (value === current.value) return current;
       if (current.value < value) {
-        current = current.left;
+        current = current.right;
       } else {
         current = current.right;
       }

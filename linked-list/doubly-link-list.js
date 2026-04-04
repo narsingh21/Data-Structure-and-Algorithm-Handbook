@@ -29,7 +29,7 @@ class DoublyLinkedList {
 
   //O(1)
   pop() {
-    if (!this.length === 0) return undefined;
+    if (this.length === 0) return undefined;
     let removedNode = this.tail;
 
     if (this.length === 1) {
@@ -48,7 +48,7 @@ class DoublyLinkedList {
 
   // O(1)
   shift() {
-    if (this.head) return undefined;
+    if (!this.head) return undefined;
     this.oldHead = this.head;
     if (this.length === 1) {
       this.head = null;
@@ -77,15 +77,24 @@ class DoublyLinkedList {
     return this;
   }
 
+  // O(n)
   get(index) {
     if (index < 0 || this.length <= index) return undefined;
-    let FoundNode;
 
-    if (index <= index / 2) {
-      let count =0;
-      
+    let current;
+    // Start from beginning if index is in first half
+    if (index <= this.length / 2) {
+      current = this.head;
+      for (let i = 0; i < index; i++) {
+        current = current.next;
+      }
     } else {
+      // Start from end if index is in second half
+      current = this.tail;
+      for (let i = this.length - 1; i > index; i--) {
+        current = current.prev;
+      }
     }
-    return foundNode;
+    return current;
   }
 }

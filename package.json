@@ -1,13 +1,28 @@
 {
-  "name": "leet-code-questions",
+  "name": "data-structures-algorithms-handbook",
   "version": "1.0.0",
-  "description": "",
+  "description": "A comprehensive collection of data structures and algorithms implemented in JavaScript",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/developer-notes/data-structures-algorithms-handbook.git"
+  },
+  "keywords": [
+    "data-structures",
+    "algorithms",
+    "javascript",
+    "dsa",
+    "computer-science"
+  ],
+  "author": "Developer Notes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/developer-notes/data-structures-algorithms-handbook/issues"
+  },
+  "homepage": "https://github.com/developer-notes/data-structures-algorithms-handbook#readme",
   "dependencies": {
     "nodemon": "^3.1.10"
   }
