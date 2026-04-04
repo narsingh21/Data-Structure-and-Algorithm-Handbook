@@ -2,7 +2,7 @@
 
 -Queue is data structure based on FIFO( First Come First out)
 
-Use Cases-  Background task
+Use Cases:-  Background task
           - file uploading
           -printing/ Task processing
 
